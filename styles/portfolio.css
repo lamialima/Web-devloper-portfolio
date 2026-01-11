@@ -14,12 +14,15 @@
     color: #FD6E0A;
 }
 /*header*/
-header{
+.header{
     background-image: url(../images/developer.png), url(../images/header_bg.png);
     background-repeat: no-repeat;
-    background-position: top left , top right;
+    background-position: top left,bottom right;
+    background-color: #FFF8F3;
+    background-size: auto 100%, auto;
+    min-height: 100vh;
    
-   
+
     
 }
 
@@ -28,13 +31,12 @@ header{
     display: flex;
     align-items: center;
     justify-content: space-between;
-    margin: 0px 200px;
-
+    padding: 30px 150px;
 
  }
 
  .nav-title {
- font-weight: 800px;
+ font-weight: 800;
  font-size: 45px;   
 }
 nav ul{
@@ -62,10 +64,12 @@ nav li a{
 
 }
 /* banner-styles*/
-.banner{
+.banner {
     display: flex;
-    justify-content:space-between ;
-    margin: 0 35px 0 200px;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 150px;
+}
     
 }
 .banner-style{
@@ -82,5 +86,6 @@ nav li a{
  }
  .banner-pic{
     width: 280px;
+    
  }
 
