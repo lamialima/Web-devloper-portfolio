@@ -25,8 +25,6 @@ background-color: #FFF8F3;
     background-image: url(../images/developer.png), url(../images/header_bg.png);
     background-repeat: no-repeat;
     background-position: top left,bottom right;
-
-
 }
 
 /* nav styles*/
@@ -35,8 +33,6 @@ background-color: #FFF8F3;
     align-items: center;
     justify-content: space-between;
     margin: 0px 200px;
-
-
  }
 
  .nav-title {
@@ -64,7 +60,7 @@ nav li a{
    border:none;
    border-radius: 5px;
    border-color: #e79358;
-   
+}
 .section-title{
 font-size: 35px;
 font-weight: bold;
@@ -74,7 +70,7 @@ color: #181818;
     font-size: 18px;
     color: #181818;
 }
-}
+
 /* banner-styles*/
 .banner{
     display: flex;
